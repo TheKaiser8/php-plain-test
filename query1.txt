@@ -1,0 +1,16 @@
+QUERY PHP PLAIN E MYSQL
+
+Sono date le seguenti tabelle MYSQL
+
+1. Tabella 'articoli' con colonne:
+    'cod' (codice articolo)
+    'des' (descrizione articolo)
+    'mar_cod' (codice marca)
+
+2. Tabella 'marche' con con colonne:
+    'mar_cod' (codice marca)
+    'mar_des' (descrizione marca)
+
+La colonna articoli.mar_cod è FK(foreign key) verso marche.mar_cod
+
+Scrivere la query che mette in "JOIN" le due tabelle ed eseguire la query in modo da popolare la tabella HTML "Elenco articoli con marca".
